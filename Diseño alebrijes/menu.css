@@ -1,0 +1,68 @@
+body{
+    background:#ffffff;
+    /*background: linear-gradient(27deg, #00BBF0 , #00BBF0);*/
+}
+
+
+.alebrijes{
+    background:#0060CA;
+    height: 20px;
+    width: 100%;
+    font-size: 80px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-family: Sitka Heading;
+    /**float: right;
+    background-color: aquamarine;**/
+}
+.logotipo{
+    position: absolute;
+    top:  .5%;
+    left: 400px;
+    flex-shrink: 0;
+    width: 200px;
+}
+
+.barritas{
+    position: absolute;
+    top:  .5%;
+    left: 115px;
+    flex-shrink: 0;
+    width: 200px;
+}
+.clientes{
+    background:#0060CA;
+    height: 100px;
+    width: 100%;
+    font-size: 80px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    font-family: Sitka Heading;
+}
+.menuclientes{
+    float: below;
+    position: static;
+    margin-top: 55%;
+}
+.menuhospitalizados{
+    position: static;
+    min-height: 100px;
+    margin-top: 60px;
+    width: 600px;
+    padding-left: 15cm;
+    top: auto;
+}
+.menumascota{
+    position: static;
+    min-height: 100px;
+    margin-top: -15%;
+    width: 600px;
+    padding-left: 30cm;
+    top: auto;
+}
